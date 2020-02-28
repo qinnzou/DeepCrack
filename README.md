@@ -72,7 +72,7 @@ python test.py
 Please cite our paper if you use our codes or data in your own work:
 ```
 @article{zou2018deepcrack,
-  title={Deepcrack: Learning hierarchical convolutional features for crack detection},
+  title={Deepcrack: Learning Hierarchical Convolutional Features for Crack Detection},
   author={Zou, Qin and Zhang, Zheng and Li, Qingquan and Qi, Xianbiao and Wang, Qian and Wang, Song},
   journal={IEEE Transactions on Image Processing},
   volume={28},
