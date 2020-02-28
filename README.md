@@ -33,17 +33,17 @@ We use different sampling strides to get 5 continuous images, as shown below. Ea
 
 ## Download:
 You can download the four datasets and pretrained model from the following link,
-'''
+```
 CrackTree260 & GT dataset: https://1drv.ms/f/s!AittnGm6vRKLyiQUk3ViLu8L9Wzb 
-'''
+
 CRKWH100 dataset: https://1drv.ms/f/s!AittnGm6vRKLtylBkxVXw5arGn6R 
 CRKWH100 GT: https://1drv.ms/f/s!AittnGm6vRKLglyfiCw_C6BDeFsP
-'''
+
 CrackLS315 dataset: https://1drv.ms/f/s!AittnGm6vRKLtylBkxVXw5arGn6R 
-'''
+
 Stone331 dataset: https://1drv.ms/f/s!AittnGm6vRKLtylBkxVXw5arGn6R 
 Stone331 GT: https://1drv.ms/f/s!AittnGm6vRKLwiL55f7f0xdpuD9_
-'''
+```
 
 # Set up
 ## Requirements
