@@ -1,4 +1,4 @@
-# deepcrack
+# DeepCrack
 This is the source code for DeepCrack: Learning Hierarchical Convolutional Features for Crack Detection. We provide the dataset and the pretrained model.
 
 Zou Q, Zhang Z, Li Q, Qi X, Wang Q and Wang S, DeepCrack: Learning Hierarchical Convolutional Features for Crack Detection, IEEE Transactions on Image Processing, vol. 28, no. 3, pp. 1498--1512, 2019.
@@ -10,18 +10,16 @@ Zou Q, Zhang Z, Li Q, Qi X, Wang Q and Wang S, DeepCrack: Learning Hierarchical 
 
 # DeepCrack Dataset
 ## Description:
-This dataset contains 19383 image sequences for lane detection, and 39460 frames of them are labeled. These images were divided into two parts, a training dataset contains 9548 labeled images and augmented by four times, and a test dataset has 1268 labeled images. The size of images in this dataset is 128*256.
-+ Training set:
-   - Data augmentation:
-The training set is augmented. By flipping and rotating the images in three degree, the data volume is quadruple. These augmented data are separated from the original training set, which is name as “origin”. “f” and “3d” after “-” are represent for flipping and rotation. Namely, the “origin- 3df” folder is the rotated and flipped training set.
-   - Data construction:
-The original training set contains continuous driving scenes images, and they are divided into images sequences by every twenty. All images are contained in “clips_all”, and there are 19096 sequences for training. Each 13th and 20th frame in a sequence are labeled, and the 38192 image and their labels are in “clips_13(_truth)” and “clips_20(_truth)”.
-The original training dataset has two parts. Sequences in “0313”, “0531” and “0601” subfolders are constructed on TuSimple lane detection dataset, containing scenes in American highway. The four “weadd” folders are added images in rural road in China.
-+ Test set:
-   - Testset #1:
-The normal testset, named Testset #1, is used for testing the overall performance of algorithms. Sequences in “0530”, “0531” and “0601” subfolders are constructed on TuSimple lane dataset. 270 sequences are contained, and each 13th and 20th image is labeled.
-   - Testset #2:
-The Testset #2 is used for testing the robustness of algorithms. 12 kinds of hard scenes for human eyes are contained. All frames are labeled.
++ CrackTree260 dataset: 
+  - It contains 260 road pavement images - an expansion of the dataset used in [CrackTree, PRL, 2012]. These pavement images are captured by an area-array camera under visible-light illumination. We use all 260 images for training. Data augmentation has been performed to enlarge the size of the training set. We rotate the images with 9 different angles (from 0-90 degrees at an interval of 10), flip the image in the vertical and horizontal direction at each angle, and crop 5 subimages (with 4 at the corners and 1 in the center) on each flipped image with a size of 512×512. After augmentation, we get a training set of 35,100 images in total.
++ CRKWH100 dataset:
+  - It contains 100 road pavement images captured by a line-array camera under visible-light illumination. The line-array camera captures the pavement at a ground sampling distance of 1 millimeter.
++ CrackLS315 dataset: 
+  - It contains 315 road pavement images captured under laser illumination. These images are also captured by a line-array camera, at the same ground sampling distance.
++ Stone331 dataset:
+  - It contains 331 images of stone surface. When cutting the stone, cracks may occur on the cutting surface. These images are captured by an area-array camera under visible-light illumination. We produce a mask for the area of each stone surface in the image. Then the performance evaluation can be constrained in the stone surface.
+
+
 ## Using:
 Index are contained. For detecting lanes in continuous scenes, the input size is 5 in our paper. Thus, the former images are additional information to predict lanes in the last frame, and the last frame is the labeled one.
 We use different sampling strides to get 5 continuous images, as shown below. Each row in the index represents for a sequence and its label for training.![image](https://github.com/qinnzou/Robust-Lane-Detection/blob/master/LaneDetectionCode/save/result/lane3.png)
