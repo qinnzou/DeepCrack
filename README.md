@@ -4,14 +4,9 @@ This is the source code for DeepCrack: Learning Hierarchical Convolutional Featu
 Zou Q, Zhang Z, Li Q, Qi X, Wang Q and Wang S, DeepCrack: Learning Hierarchical Convolutional Features for Crack Detection, IEEE Transactions on Image Processing, vol. 28, no. 3, pp. 1498--1512, 2019.
 
 # Network Architecture
-![image](https://github.com/qinnzou/Robust-Lane-Detection/blob/master/LaneDetectionCode/save/result/network.png)
+![image](https://github.com/qinnzou/deepcrack/blob/master/figures/network.png)
 # Some Results
-![image](https://github.com/qinnzou/Robust-Lane-Detection/blob/master/LaneDetectionCode/save/result/1_data.jpg)
-![image](https://github.com/qinnzou/Robust-Lane-Detection/blob/master/LaneDetectionCode/save/result/2_data.jpg)
-![image](https://github.com/qinnzou/Robust-Lane-Detection/blob/master/LaneDetectionCode/save/result/3_data.jpg)
-![image](https://github.com/qinnzou/Robust-Lane-Detection/blob/master/LaneDetectionCode/save/result/1_pred.jpg)
-![image](https://github.com/qinnzou/Robust-Lane-Detection/blob/master/LaneDetectionCode/save/result/2_pred.jpg)
-![image](https://github.com/qinnzou/Robust-Lane-Detection/blob/master/LaneDetectionCode/save/result/3_pred.jpg)
+![image](https://github.com/qinnzou/deepcrack/blob/master/figures/intro.png)
 
 # DeepCrack Dataset
 ## Description:
