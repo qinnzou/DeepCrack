@@ -1,4 +1,5 @@
 # deepcrack
+This is the source code for DeepCrack: Learning Hierarchical Convolutional Features for Crack Detection. We provide the dataset and the pretrained model.
 
 Zou Q, Zhang Z, Li Q, Qi X, Wang Q and Wang S, DeepCrack: Learning Hierarchical Convolutional Features for Crack Detection, IEEE Transactions on Image Processing, vol. 28, no. 3, pp. 1498--1512, 2019.
 
@@ -12,7 +13,7 @@ Zou Q, Zhang Z, Li Q, Qi X, Wang Q and Wang S, DeepCrack: Learning Hierarchical 
 ![image](https://github.com/qinnzou/Robust-Lane-Detection/blob/master/LaneDetectionCode/save/result/2_pred.jpg)
 ![image](https://github.com/qinnzou/Robust-Lane-Detection/blob/master/LaneDetectionCode/save/result/3_pred.jpg)
 
-# tvtLANE Dataset
+# DeepCrack Dataset
 ## Description:
 This dataset contains 19383 image sequences for lane detection, and 39460 frames of them are labeled. These images were divided into two parts, a training dataset contains 9548 labeled images and augmented by four times, and a test dataset has 1268 labeled images. The size of images in this dataset is 128*256.
 + Training set:
@@ -31,8 +32,12 @@ Index are contained. For detecting lanes in continuous scenes, the input size is
 We use different sampling strides to get 5 continuous images, as shown below. Each row in the index represents for a sequence and its label for training.![image](https://github.com/qinnzou/Robust-Lane-Detection/blob/master/LaneDetectionCode/save/result/lane3.png)
 
 ## Download:
-You can download this dataset and pretrained model from the following link,
-https://pan.baidu.com/s/1DXy6klAHNmsIjq_g83CGiQ or https://drive.google.com/drive/folders/1BHbYU3AoU5i2mduMtfUkFHVuYObA_fWt?usp=sharing
+You can download the four datasets and pretrained model from the following link,
+CrackTree260 dataset: https://1drv.ms/f/s!AittnGm6vRKLyiQUk3ViLu8L9Wzb 
+CRKWH100 dataset: https://1drv.ms/f/s!AittnGm6vRKLtylBkxVXw5arGn6R 
+CrackLS315 dataset: https://1drv.ms/f/s!AittnGm6vRKLtylBkxVXw5arGn6R 
+Stone331 dataset: https://1drv.ms/f/s!AittnGm6vRKLtylBkxVXw5arGn6R 
+
 
 # Set up
 ## Requirements
@@ -72,16 +77,19 @@ The quantitative evaluations of Accuracy, Precision, Recall and  F1 measure woul
 We have put five images sequences in the "./LaneDetectionCode/data/testset" with test_index_demo.txt on UNet-ConvLSTM for demo. You can run test.py directly to check the performance.
 
 # Citation:
-Please cite our paper if you use this code or data in your own work:
+Please cite our paper if you use our codes or data in your own work:
 ```
-@article{zou2019tvt,
-  title={Robust lane detection from continuous driving scenes using deep neural networks},
-  author={Q. Zou and H. Jiang and Q. Dai and Y. Yue and L. Chen and Q. Wang},
-  journal={IEEE Transactions on Vehicular Technology},
+@article{zou2018deepcrack,
+  title={Deepcrack: Learning hierarchical convolutional features for crack detection},
+  author={Zou, Qin and Zhang, Zheng and Li, Qingquan and Qi, Xianbiao and Wang, Qian and Wang, Song},
+  journal={IEEE Transactions on Image Processing},
+  volume={28},
+  number={3},
+  pages={1498--1512},
   year={2019},
 }
 ```
 # Copy Right:
-This dataset was collected for academic research. It MUST NOT be used for commercial purposes. 
+This dataset was collected for academic research. 
 # Contact: 
 For any problem about this dataset, please contact Dr. Qin Zou (qzou@whu.edu.cn).
