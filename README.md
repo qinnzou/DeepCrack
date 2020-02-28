@@ -3,6 +3,8 @@ This is the source code for DeepCrack: Learning Hierarchical Convolutional Featu
 
 Zou Q, Zhang Z, Li Q, Qi X, Wang Q and Wang S, DeepCrack: Learning Hierarchical Convolutional Features for Crack Detection, IEEE Transactions on Image Processing, vol. 28, no. 3, pp. 1498--1512, 2019.
 
+ -  Abstract: Cracks are typical line structures that are of interest in many computer-vision applications. In practice, many cracks, e.g., pavement cracks, show poor continuity and low contrast, which bring great challenges to image-based crack detection by using low-level features. In this paper, we propose DeepCrack-an end-to-end trainable deep convolutional neural network for automatic crack detection by learning high-level features for crack representation. In this method, multi-scale deep convolutional features learned at hierarchical convolutional stages are fused together to capture the line structures. More detailed representations are made in larger scale feature maps and more holistic representations are made in smaller scale feature maps. We build DeepCrack net on the encoder-decoder architecture of SegNet and pairwisely fuse the convolutional features generated in the encoder network and in the decoder network at the same scale. We train DeepCrack net on one crack dataset and evaluate it on three others. The experimental results demonstrate that DeepCrack achieves F -measure over 0.87 on the three challenging datasets in average and outperforms the current state-of-the-art methods.
+
 # Network Architecture
 ![image](https://github.com/qinnzou/deepcrack/blob/master/figures/network.png)
 # Some Results
