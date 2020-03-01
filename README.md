@@ -29,7 +29,15 @@ Four datasets are used by DeepCrack. CrackTree260 is used for training, and the 
 
 + It contains 260 road pavement images - an expansion of the dataset used in [CrackTree, PRL, 2012]. These pavement images are captured by an area-array camera under visible-light illumination. We use all 260 images for training. Data augmentation has been performed to enlarge the size of the training set. We rotate the images with 9 different angles (from 0-90 degrees at an interval of 10), flip the image in the vertical and horizontal direction at each angle, and crop 5 subimages (with 4 at the corners and 1 in the center) on each flipped image with a size of 512×512. After augmentation, we get a training set of 35,100 images in total.
 ## CRKWH100 dataset
-  - It contains 100 road pavement images captured by a line-array camera under visible-light illumination. The line-array camera captures the pavement at a ground sampling distance of 1 millimeter.
+
+<div align="center">
+<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/1000.png" height="210" width="210" >
+<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/1000.png" height="210" width="210" >
+<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/1000.png" height="210" width="210" >
+ <img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/1000.png" height="210" width="210" >
+</div>
+
+  + It contains 100 road pavement images captured by a line-array camera under visible-light illumination. The line-array camera captures the pavement at a ground sampling distance of 1 millimeter.
 ## CrackLS315 dataset 
   - It contains 315 road pavement images captured under laser illumination. These images are also captured by a line-array camera, at the same ground sampling distance.
 ## Stone331 dataset
