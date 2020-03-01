@@ -32,9 +32,16 @@ Four datasets are used by DeepCrack. CrackTree260 is used for training, and the 
 
 <div align="center">
 <img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/1000.png" height="210" width="210" >
-<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/1000.png" height="210" width="210" >
-<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/1000.png" height="210" width="210" >
- <img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/1000.png" height="210" width="210" >
+<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/1014.png" height="210" width="210" >
+<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/1022.png" height="210" width="210" >
+<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/1042.png" height="210" width="210" >
+</div>
+
+<div align="center">
+<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/1045.png" height="210" width="210" >
+<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/1065.png" height="210" width="210" >
+<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/1095.png" height="210" width="210" >
+<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/1096.png" height="210" width="210" >
 </div>
 
   + It contains 100 road pavement images captured by a line-array camera under visible-light illumination. The line-array camera captures the pavement at a ground sampling distance of 1 millimeter.
