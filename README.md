@@ -1,5 +1,5 @@
 # DeepCrack
-This is the source code for DeepCrack: Learning Hierarchical Convolutional Features for Crack Detection. We provide the dataset and the pretrained model.
+This is the DeepCrack: Learning Hierarchical Convolutional Features for Crack Detection. We provide the dataset and the pretrained model.
 
 Zou Q, Zhang Z, Li Q, Qi X, Wang Q and Wang S, DeepCrack: Learning Hierarchical Convolutional Features for Crack Detection, IEEE Transactions on Image Processing, vol. 28, no. 3, pp. 1498-1512, 2019. [ [PDF] ](https://cse.sc.edu/~songwang/document/tip19a.pdf)
 
