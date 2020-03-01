@@ -16,16 +16,11 @@ Four datasets are used by DeepCrack. CrackTree260 is used for training, and the 
 ## CrackTree260 dataset
 
 <div align="center">
-<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/6192.jpg" height="330" width="190" >
-<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/6207.jpg" height="330" width="190" >
-<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/6264.jpg" height="330" width="190" >
+<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/6192.jpg" height="300" width="400" >
+<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/6207.jpg" height="300" width="400" >
+<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/6264.jpg" height="300" width="400" >
 </div>
 
-<div align="center">
-<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/6192.jpg" >
-<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/6207.jpg" >
-<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/6264.jpg" >
-</div>
 
 ![image](400*300, https://github.com/qinnzou/DeepCrack/blob/master/figures/6192.jpg)
 ![image](https://github.com/qinnzou/DeepCrack/blob/master/figures/6207.jpg)
