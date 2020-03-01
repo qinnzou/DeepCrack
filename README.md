@@ -14,6 +14,13 @@ Zou Q, Zhang Z, Li Q, Qi X, Wang Q and Wang S, DeepCrack: Learning Hierarchical 
 Four datasets are used by DeepCrack. CrackTree260 is used for training, and the other three are used for test.
 
 ## CrackTree260 dataset
+
+<div align="center">
+<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/6192.jpg" height="330" width="190" >
+<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/6207.jpg" height="330" width="190" >
+<img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/6264.jpg" height="330" width="190" >
+</div>
+
 ![image](https://github.com/qinnzou/DeepCrack/blob/master/figures/6192.jpg)
 ![image](https://github.com/qinnzou/DeepCrack/blob/master/figures/6207.jpg)
 ![image](https://github.com/qinnzou/DeepCrack/blob/master/figures/6264.jpg)
