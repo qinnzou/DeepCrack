@@ -27,7 +27,7 @@ Four datasets are used by DeepCrack. CrackTree260 is used for training, and the 
 <img src="https://github.com/qinnzou/DeepCrack/blob/master/figures/6264.jpg" >
 </div>
 
-![image](https://github.com/qinnzou/DeepCrack/blob/master/figures/6192.jpg)
+![image](400*300, https://github.com/qinnzou/DeepCrack/blob/master/figures/6192.jpg)
 ![image](https://github.com/qinnzou/DeepCrack/blob/master/figures/6207.jpg)
 ![image](https://github.com/qinnzou/DeepCrack/blob/master/figures/6264.jpg)
 ![image](https://github.com/qinnzou/DeepCrack/blob/master/figures/6328.jpg)
