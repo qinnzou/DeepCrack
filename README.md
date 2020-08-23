@@ -68,9 +68,9 @@ Stone331 GT: https://1drv.ms/f/s!AittnGm6vRKLwiL55f7f0xdpuD9_
 Stone331 Mask: https://1drv.ms/u/s!AittnGm6vRKLxmFB78iKSxTzNLRV?e=9Ph5aP
 ```
 
-You can also download the datasets from 
-< br > link：https://pan.baidu.com/s/1PWiBzoJlc8qC8ffZu2Vb8w 
-< br > passcodes：zfoo
+You can also download the datasets from  
+link：https://pan.baidu.com/s/1PWiBzoJlc8qC8ffZu2Vb8w   
+passcodes：zfoo
 
 ## Results:
 Some results on our datasets are shown as below.
