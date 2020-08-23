@@ -67,6 +67,10 @@ Stone331 GT: https://1drv.ms/f/s!AittnGm6vRKLwiL55f7f0xdpuD9_
 Stone331 Mask: https://1drv.ms/u/s!AittnGm6vRKLxmFB78iKSxTzNLRV?e=9Ph5aP
 ```
 
+Or you can download the datasets from 
+link：https://pan.baidu.com/s/1PWiBzoJlc8qC8ffZu2Vb8w 
+passcodes：zfoo
+
 ## Results:
 Some results on our datasets are shown as below.
 ![image](https://github.com/qinnzou/deepcrack/blob/master/figures/deepcrack-compare1.png)
@@ -75,21 +79,26 @@ Some results on our datasets are shown as below.
 
 # Set up
 ## Requirements
-PyTorch 0.4.0  
+PyTorch 1.0.2 or above 
 Python 3.6  
-CUDA 8.0  
+CUDA 10.0  
 We run on the Intel Core Xeon E5-2630@2.3GHz, 64GB RAM and two GeForce GTX TITAN-X GPUs.
 
 ## Pretrained Models
 Pretrained models on PyTorch are available using links in the Download part, 
-You can download them and put them into "./DeepCrackCode/pretrained/". (will be available soon)
+You can download them and put them into "./codes/checkpoints/".
+
+You can download the pretrained model from
+link：https://pan.baidu.com/s/1WsIwVnDgtRBpJF8ktlN84A 
+passcode：27py 
+
 
 ## Training 
 Before training, change the paths including "train_path"(for train_index.txt), "pretrained_path" in config.py to adapt to your environment.  
 Choose the models and adjust the arguments such as class weights, batch size, learning rate in config.py.  
 Then simply run:  
 ```
-python train.py (will be available soon)
+python train.py 
 ```
 
 ## Test
@@ -115,4 +124,4 @@ Please cite our paper if you use our codes or data in your own work:
 # Copy Right:
 This dataset was collected for academic research. 
 # Contact: 
-For any problem about this dataset, please contact Dr. Qin Zou (qzou@whu.edu.cn).
+For any problem about this dataset or codes, please contact Dr. Qin Zou (qzou@whu.edu.cn).
