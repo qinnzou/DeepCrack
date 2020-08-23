@@ -85,12 +85,11 @@ CUDA 10.0
 We run on the Intel Core Xeon E5-2630@2.3GHz, 64GB RAM and two GeForce GTX TITAN-X GPUs.
 
 ## Pretrained Models
-Pretrained models on PyTorch are available using links in the Download part, 
-You can download them and put them into "./codes/checkpoints/".
-
-You can download the pretrained model from
+Pretrained models on PyTorch are available at, 
 link：https://pan.baidu.com/s/1WsIwVnDgtRBpJF8ktlN84A 
 passcode：27py 
+You can download them and put them into "./codes/checkpoints/".
+
 
 ```
 Please notice that, as this model was trained with Pytorch, its performance is slightly different with that of the original version built on Caffe.
@@ -105,7 +104,7 @@ python train.py
 ```
 
 ## Test
-To evlauate the performance of a pre-trained model, please put the pretrained model listed above or your own models into "./DeepCrackCode/pretrained/" and change "pretrained_path" in config.py at first, then change "test_path" for test_index.txt, and "save_path" for the saved results.   
+To evlauate the performance of a pre-trained model, please put the pretrained model listed above or your own models into "./codes/checkpoints/" and change "pretrained_path" in config.py at first, then change "test_path" for test_index.txt, and "save_path" for the saved results.   
 Choose the right model that would be evlauated, and then simply run:  
 ```
 python test.py
