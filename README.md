@@ -53,7 +53,7 @@ Four datasets are used by DeepCrack. CrackTree260 is used for training, and the 
 
 
 ## Download:
-You can download the four datasets and pretrained model from the following link,
+You can download the four datasets from the following link,
 ```
 CrackTree260 & GT dataset: https://1drv.ms/f/s!AittnGm6vRKLyiQUk3ViLu8L9Wzb 
 
@@ -73,17 +73,17 @@ link：https://pan.baidu.com/s/1PWiBzoJlc8qC8ffZu2Vb8w
 passcodes：zfoo
 
 ## Results:
-Some results on our datasets are shown as below.
+Some results on our datasets:
 ![image](https://github.com/qinnzou/deepcrack/blob/master/figures/deepcrack-compare1.png)
 ![image](https://github.com/qinnzou/deepcrack/blob/master/figures/deepcrack-compare2.png)
 ![image](https://github.com/qinnzou/deepcrack/blob/master/figures/deepcrack-compare3.png)
 
 # Set up
 ## Requirements
-PyTorch 1.0.2 or above 
-< br >Python 3.6  
-< br >CUDA 10.0  
-< br >We run on the Intel Core Xeon E5-2630@2.3GHz, 64GB RAM and two GeForce GTX TITAN-X GPUs.
+PyTorch 1.0.2 or above   
+Python 3.6    
+CUDA 10.0    
+We run on the Intel Core Xeon E5-2630@2.3GHz, 64GB RAM and two GeForce GTX TITAN-X GPUs.
 
 ## Pretrained Models
 Pretrained models on PyTorch are available at,   
