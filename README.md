@@ -92,6 +92,9 @@ You can download the pretrained model from
 link：https://pan.baidu.com/s/1WsIwVnDgtRBpJF8ktlN84A 
 passcode：27py 
 
+```
+Please notice that, as this model was trained with Pytorch, its performance is slightly different with that of the original version built on Caffe.
+```
 
 ## Training 
 Before training, change the paths including "train_path"(for train_index.txt), "pretrained_path" in config.py to adapt to your environment.  
