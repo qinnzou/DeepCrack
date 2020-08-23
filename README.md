@@ -86,10 +86,10 @@ PyTorch 1.0.2 or above
 < br >We run on the Intel Core Xeon E5-2630@2.3GHz, 64GB RAM and two GeForce GTX TITAN-X GPUs.
 
 ## Pretrained Models
-Pretrained models on PyTorch are available at, 
-< br >link：https://pan.baidu.com/s/1WsIwVnDgtRBpJF8ktlN84A 
-< br >passcode：27py 
-< br >You can download them and put them into "./codes/checkpoints/".
+Pretrained models on PyTorch are available at,   
+link：https://pan.baidu.com/s/1WsIwVnDgtRBpJF8ktlN84A   
+passcode：27py   
+You can download them and put them into "./codes/checkpoints/".
 
 
 ```
