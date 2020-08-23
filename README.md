@@ -111,7 +111,7 @@ python test.py
 ```
 
 # Citation:
-Please cite our paper if you use our codes or data in your own work:
+Please cite our paper if you use our codes or datasets in your own work:
 ```
 @article{zou2018deepcrack,
   title={Deepcrack: Learning Hierarchical Convolutional Features for Crack Detection},
@@ -121,6 +121,19 @@ Please cite our paper if you use our codes or data in your own work:
   number={3},
   pages={1498--1512},
   year={2019},
+}
+```
+The CrackTree260 dataset was constructed based on the CrackTree206 dataset. If you use it, please cite
+```
+@article{zou2012cracktree,
+  title={CrackTree: Automatic crack detection from pavement images},
+  author={Zou, Qin and Cao, Yu and Li, Qingquan and Mao, Qingzhou and Wang, Song},
+  journal={Pattern Recognition Letters},
+  volume={33},
+  number={3},
+  pages={227--238},
+  year={2012},
+  publisher={Elsevier}
 }
 ```
 # Copy Right:
