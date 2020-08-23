@@ -1,5 +1,6 @@
-# DeepCrack
-This is the DeepCrack: Learning Hierarchical Convolutional Features for Crack Detection. We provide the codes, the datasets, and the pretrained model.
+# DeepCrack: Learning Hierarchical Convolutional Features for Crack Detection
+
+We provide the codes, the datasets, and the pretrained model.
 
 Zou Q, Zhang Z, Li Q, Qi X, Wang Q and Wang S, DeepCrack: Learning Hierarchical Convolutional Features for Crack Detection, IEEE Transactions on Image Processing, vol. 28, no. 3, pp. 1498-1512, 2019. [ [PDF] ](https://cse.sc.edu/~songwang/document/tip19a.pdf)
 
@@ -68,8 +69,8 @@ Stone331 Mask: https://1drv.ms/u/s!AittnGm6vRKLxmFB78iKSxTzNLRV?e=9Ph5aP
 ```
 
 You can also download the datasets from 
-link：https://pan.baidu.com/s/1PWiBzoJlc8qC8ffZu2Vb8w 
-passcodes：zfoo
+< br > link：https://pan.baidu.com/s/1PWiBzoJlc8qC8ffZu2Vb8w 
+< br > passcodes：zfoo
 
 ## Results:
 Some results on our datasets are shown as below.
@@ -80,15 +81,15 @@ Some results on our datasets are shown as below.
 # Set up
 ## Requirements
 PyTorch 1.0.2 or above 
-Python 3.6  
-CUDA 10.0  
-We run on the Intel Core Xeon E5-2630@2.3GHz, 64GB RAM and two GeForce GTX TITAN-X GPUs.
+< br >Python 3.6  
+< br >CUDA 10.0  
+< br >We run on the Intel Core Xeon E5-2630@2.3GHz, 64GB RAM and two GeForce GTX TITAN-X GPUs.
 
 ## Pretrained Models
 Pretrained models on PyTorch are available at, 
-link：https://pan.baidu.com/s/1WsIwVnDgtRBpJF8ktlN84A 
-passcode：27py 
-You can download them and put them into "./codes/checkpoints/".
+< br >link：https://pan.baidu.com/s/1WsIwVnDgtRBpJF8ktlN84A 
+< br >passcode：27py 
+< br >You can download them and put them into "./codes/checkpoints/".
 
 
 ```
