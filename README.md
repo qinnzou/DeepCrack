@@ -87,7 +87,8 @@ We run on the Intel Core Xeon E5-2630@2.3GHz, 64GB RAM and two GeForce GTX TITAN
 
 ## Pretrained Models
 Pretrained models on PyTorch are available at,   
-link：https://pan.baidu.com/s/1WsIwVnDgtRBpJF8ktlN84A   
+https://drive.google.com/file/d/1OO3OAzR4yxYh_UBR9Nu7hV3XayfKVyO-/view?usp=sharing  
+or at link：https://pan.baidu.com/s/1WsIwVnDgtRBpJF8ktlN84A   
 passcode：27py   
 You can download them and put them into "./codes/checkpoints/".
 
