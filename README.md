@@ -125,7 +125,7 @@ Please cite our paper if you use our codes or datasets in your own work:
   year={2019},
 }
 ```
-The CrackTree260 dataset was constructed based on the CrackTree206 dataset. If you use it, please cite
+The CrackTree260 dataset was constructed based on the CrackTree206 dataset. For details, you can refer to
 ```
 @article{zou2012cracktree,
   title={CrackTree: Automatic crack detection from pavement images},
