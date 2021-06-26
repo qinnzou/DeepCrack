@@ -113,7 +113,7 @@ python test.py
 ```
 
 # Citation:
-If you use our codes or datasets in your own research, our paper should be cited:
+If you use our codes or datasets in your own research, the citation can be placed as:
 ```
 @article{zou2018deepcrack,
   title={Deepcrack: Learning Hierarchical Convolutional Features for Crack Detection},
